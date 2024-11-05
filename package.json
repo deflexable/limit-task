@@ -1,0 +1,25 @@
+{
+  "name": "limit-task",
+  "version": "1.0.0",
+  "description": "Run async tasks in parallel with a maximum limit ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deflexable/limit-task.git"
+  },
+  "keywords": [
+    "limit-task",
+    "queue-task",
+    "maximum-task",
+    "concurrent-task"
+  ],
+  "author": "Anthony Onabanjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deflexable/limit-task/issues"
+  },
+  "homepage": "https://github.com/deflexable/limit-task#readme"
+}
