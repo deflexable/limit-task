@@ -52,12 +52,12 @@ queue(async () => {
 
 the above code will execute maximum of 2 task concurrently. The log output will be as follows:
 
---> `first tasks added`
---> `second tasks added`
---> one seconds delay
---> `second tasks completed`
---> `third tasks added`
---> one seconds delay
---> `first tasks completed`
---> two seconds delay
---> `third tasks completed`
+- --> `first tasks added`
+- --> `second tasks added`
+- --> one seconds delay
+- --> `second tasks completed`
+- --> `third tasks added`
+- --> one seconds delay
+- --> `first tasks completed`
+- --> two seconds delay
+- --> `third tasks completed`
